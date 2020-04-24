@@ -18,6 +18,9 @@ linux command 를 모아보자!
 [1. top](/status/top.md) : 각 프로세스의 CPU점유율에 대한 실시간 모니터링.  
 [2. ulimit](/status/ulimit.md) : 각 프로세스에 대한 제약사항(열 수 있는 파일의 수)  
 
+## 프로세스  
+[1.kill](/process/kill.md) : 해당 프로세스에 시그널을 보내고자 한다면?  
+
 
 
 ## 권한  
