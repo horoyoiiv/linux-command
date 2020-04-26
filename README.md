@@ -12,6 +12,8 @@ linux command 를 모아보자!
 [1. xargs](/commands/xargs.md)  
 [2. less](/showing/less.md) : 한 화면에 다 담기지 않고, 마우스 스크롤까지 먹통이라면...  
 
+## 탐색  
+[1. find](/search/find.md) : 파일 및 디렉토리 이름을 탐색한다.  
 
 ## 상태  
 
