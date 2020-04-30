@@ -1,16 +1,24 @@
 # linux-command
 linux command 를 모아보자!
 
+```
+history | awk '{a[$2]++}END{for(i in a){print a[i] " " i}}' | sort -nr | head -10
+```
 
 
 ## Basics  
-#### 1. 환경변수 등록  
-[env, export](/basics.md)  
+[1. env, export](/basics.md) : 환경변수  
+[2. man hier](/basic/dir.md) : **리눅스의 파일 시스템 구조**(정리 중)      
+
 
 ## Simple as possible  
 
-[1. xargs](/commands/xargs.md)  
+[1. xargs](/commands/xargs.md) : std input이 아닌, command-line parameter로 넘겨줄려면?   
 [2. less](/showing/less.md) : 한 화면에 다 담기지 않고, 마우스 스크롤까지 먹통이라면...  
+[3. sort](showing/sort.md) : 파일을 행 단위로 정렬할 때. (기준은 열)  
+4. head -n : 상위 n행만을 출력   
+5. tail -n : 하위 n행만을 출력  
+
 
 ## 탐색  
 [1. find](/search/find.md) : 파일 및 디렉토리 이름을 탐색한다.  
@@ -35,4 +43,9 @@ linux command 를 모아보자!
 ## 네트워크  
 
 1. fuser -k 3000/tcp : 해당 포트를 가진 프로세스 종료  
+
+## ETC  
+[1. wget](/etc/wget.md) : web get? 네트워크를 통해 데이터를 로컬에 다운로드 받자...!  
+2. history : 내가 무슨 커맨드를 쳤더라?  
+
 
