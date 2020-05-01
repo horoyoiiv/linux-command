@@ -9,6 +9,8 @@ history | awk '{a[$2]++}END{for(i in a){print a[i] " " i}}' | sort -nr | head -1
 ## Basics  
 [1. env, export](/basics.md) : 환경변수  
 [2. man hier](/basic/dir.md) : **리눅스의 파일 시스템 구조**(정리 중)      
+[3. printenv, set](/basic/printenv.md) : 환경변수, 쉘 변수   
+[4. char* getenv(char*)](/basic/read.md) : shell scirpt 혹은 c 코드에서 환경변수 읽기  
 
 
 ## Simple as possible  
@@ -19,6 +21,8 @@ history | awk '{a[$2]++}END{for(i in a){print a[i] " " i}}' | sort -nr | head -1
 4. head -n : 상위 n행만을 출력   
 5. tail -n : 하위 n행만을 출력  
 
+## XXX  
+[1.awk](/xxx/awk) : 행 단위 처리  
 
 ## 탐색  
 [1. find](/search/find.md) : 파일 및 디렉토리 이름을 탐색한다.  
