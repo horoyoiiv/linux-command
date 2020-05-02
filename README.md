@@ -23,6 +23,7 @@ history | awk '{a[$2]++}END{for(i in a){print a[i] " " i}}' | sort -nr | head -1
 
 ## XXX  
 [1.awk](/xxx/awk) : 행 단위 처리  
+[2.cut](/xxx/cut.md) : 파일의 내용을 **cut**하여 출력  
 
 ## 탐색  
 [1. find](/search/find.md) : 파일 및 디렉토리 이름을 탐색한다.  
