@@ -39,16 +39,17 @@ history | awk '{a[$2]++}END{for(i in a){print a[i] " " i}}' | sort -nr | head -1
 
 
 ## 권한  
-[1. chmod](/권한.md)  
-
+[1. chmod](/all/chmod.md.md)  
+[2. chown](/all/chown.md)
 ## 파일 및 디렉토리 관련  
 [1.ln](/ln.md)  
 
 
 ## 네트워크  
 
-1. fuser -k 3000/tcp : 해당 포트를 가진 프로세스 종료  
+[1. fuser] -k 3000/tcp : 해당 포트를 가진 프로세스 종료  
 [2. brctl](/all/network/brctl.md) : L2 브릿지 정보 확인할 때...  
+
 
 ## ETC  
 [1. wget](/etc/wget.md) : web get? 네트워크를 통해 데이터를 로컬에 다운로드 받자...!  
