@@ -31,6 +31,7 @@ history | awk '{a[$2]++}END{for(i in a){print a[i] " " i}}' | sort -nr | head -1
 ## 상태  
 [1. vmstat](/all/memory/vmstat.md) **이해 중**     
 [2. ulimit](/status/ulimit.md) : 각 프로세스에 대한 제약사항(열 수 있는 파일의 수)  
+[3. who](/all/status/who.md) : 현재 로그인한 사용자 정보 출력  
 
 ## 프로세스  
 [1.kill](/process/kill.md) : 특정 프로세스에 시그널을 보내고자 한다면?  
